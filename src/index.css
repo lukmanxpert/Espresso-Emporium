@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rancho&display=swap');
+
+body {
+    overflow-y: scroll;
+}
+
+#header {
+    background-image: url(./assets//more//15.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#banner {
+    background-image: url(./assets//more/3.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#subBanner>div>img {
+    margin: 10px 0;
+}
+#subBanner>div>h1{
+    color: #331A15;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+#subBanner>div>p{
+    color: #1B1A1A;
+    font-size: 16px;
+}
+#sub-footer{
+    background-image: url(./assets/more/24.jpg);
+    background-position: center;
+    background-size: cover;
+}
