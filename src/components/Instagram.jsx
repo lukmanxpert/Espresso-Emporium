@@ -14,7 +14,7 @@ const Instagram = () => {
                 <p className='font-raleway text-xs text-[#1B1A1A]'>Follow Us Now</p>
                 <h1 className='font-rancho my-2 font-bold text-3xl'>Follow On Instagram</h1>
             </div>
-            <div className='grid gap-4 my-6 mb-16 grid-cols-2 md:grid-cols-4'>
+            <div className='grid gap-4 my-6 px-4 mb-16 grid-cols-2 md:grid-cols-4'>
                 <img src={img1} alt="" />
                 <img src={img2} alt="" />
                 <img src={img3} alt="" />

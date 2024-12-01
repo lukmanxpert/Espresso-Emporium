@@ -25,7 +25,7 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </footer>
-            <div id='sub-footer'>
+            <div id='sub-footer' className='px-10 text-base'>
                 <h1 className='font-rancho text-xl text-white text-center py-2'>Copyright Espresso Emporium ! All Rights Reserved</h1>
             </div>
         </div>
